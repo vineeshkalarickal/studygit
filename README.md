@@ -29,4 +29,13 @@ ssh-keygen -t rsa -b 4096 -C "vineesh.kalarickal@gmail.com" :: generate ssh key 
 git push :: push to git hub web repository  
 
 `*Upstream for future - set default origin path so that we can just use *`  
-git push -u
+git push -u origin master 
+(git push --set-upstream origin feature-readme-instructions)
+
+git branch :: `List all the branches`  
+git checkout -b feature :: *creating new branch*  
+git checkout master :: *switching from new branch to master branch*  
+
+# Local development
+1. Open index.php in your browser  
+
