@@ -39,7 +39,12 @@ git push --delete origin old_branch :: Remote path will be deleted
 git branch -d feature-readme-instructions :: local path will be deleted  
 git merge master :: *merge to master from the branch*  
 git merge --abort :: `abort last merge`  
-git diff `branch name` :: show the difference between current branch and the branch name added
+git diff `branch name` :: show the difference between current branch and the branch name added  
+git reset [reset id for go to the specific branch | HEAD~1 for 1 commit back | null for last commit undo]  
+git log :: for all the log  
+
+
+
 
 # Local development
 1. Open index.php in your browser  
