@@ -13,7 +13,7 @@ Tutorials : <https://agea.github.io/tutorial.md/>
 
 
 # commands  
-`commands i studied for git hub`
+`commands i studied for git hub`  
 git clone  :: Repository copy download to local directory  
 git status :: all the status of git (add / modified)  
 git add or git commit -a :: to add the files  
@@ -26,4 +26,7 @@ git commit -m "Added index.php" -m "This is for description of index php file" :
 
 ssh-keygen -t rsa -b 4096 -C "vineesh.kalarickal@gmail.com" :: generate ssh key to push to repository
 
-git push :: push to git hub web repository
+git push :: push to git hub web repository  
+
+`*Upstream for future - set default origin path so that we can just use *`  
+git push -u
