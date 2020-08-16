@@ -12,7 +12,7 @@ Tutorials : <https://agea.github.io/tutorial.md/>
 [Tutorial MD](https://agea.github.io/tutorial.md/)
 
 
-# commands
+# commands  
 `commands i studied for git hub`
 git clone  :: Repository copy download to local directory  
 git status :: all the status of git (add / modified)  
