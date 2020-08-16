@@ -1,6 +1,6 @@
 <html>
 <title>Study Git</title>
-<header>Index page</header>
+<header>Hello there</header>
 
 <body></body>
 
