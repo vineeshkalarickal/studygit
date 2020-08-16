@@ -44,3 +44,4 @@ git diff `branch name` :: show the difference between current branch and the bra
 # Local development
 1. Open index.php in your browser  
 2. Added html syntax
+3. header changed
