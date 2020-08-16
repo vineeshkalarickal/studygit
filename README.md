@@ -37,3 +37,4 @@ git checkout -b feature :: *creating new branch*
 git checkout master :: *switching from new branch to master branch*  
 # Local development
 1. Open index.php in your browser  
+2. Added html syntax  
