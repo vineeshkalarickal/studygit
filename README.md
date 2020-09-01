@@ -34,8 +34,8 @@ git push -u origin master
 
 git branch :: `List all the branches`  
 git checkout -b feature :: *creating new branch*  
-git checkout master :: *switching from new branch to master branch* 
-git push --delete origin old_branch :: Remote path will be deleted  
+git checkout master :: *switching from new branch to master branch*  
+git push --delete origin old_branch :: Remote path will be deleted    
 git branch -d feature-readme-instructions :: local path will be deleted  
 git merge master :: *merge to master from the branch*  
 git merge --abort :: `abort last merge`  
