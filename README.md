@@ -43,6 +43,8 @@ git diff `branch name` :: show the difference between current branch and the bra
 git reset [reset id for go to the specific branch | HEAD~1 for 1 commit back | null for last commit undo]  
 git log :: for all the log  
 
+git pull command study
+
 
 
 
