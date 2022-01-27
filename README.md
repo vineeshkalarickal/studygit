@@ -46,7 +46,13 @@ git log :: for all the log
 git pull command study
 
 
+If you need to remove a single file from the staging area, use
 
+git reset HEAD -- <file>
+
+If you need to remove a whole directory (folder) from the staging area, use
+
+git reset HEAD -- <directoryName>
 
 # Local development
 1. Open index.php in your browser  
