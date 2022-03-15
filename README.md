@@ -23,7 +23,8 @@ git restore --staged <filename> :: Restore last commited files
 git config --global user.email "vineesh.kalarickal@gmail.com"  
 git config --global user.name "Vineesh Kalarickal"  
 git commit -m "Added index.php" -m "This is for description of index php file" :: Files commited locally  
-
+git remote show origin - show the remote directory
+git reset <file> or .  -to remove last added files
 ssh-keygen -t rsa -b 4096 -C "vineesh.kalarickal@gmail.com" :: generate ssh key to push to repository
 
 git push :: push to git hub web repository  
