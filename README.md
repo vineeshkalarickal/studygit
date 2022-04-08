@@ -23,7 +23,6 @@ git restore --staged <filename> :: Restore last commited files
 git config --global user.email "vineesh.kalarickal@gmail.com"  
 git config --global user.name "Vineesh Kalarickal"  
 git commit -m "Added index.php" -m "This is for description of index php file" :: Files commited locally  
-
 ssh-keygen -t rsa -b 4096 -C "vineesh.kalarickal@gmail.com" :: generate ssh key to push to repository
 
 git push :: push to git hub web repository  
@@ -36,17 +35,25 @@ git push -u origin master
 
 git branch :: `List all the branches`  
 git checkout -b feature :: *creating new branch*  
-git checkout master :: *switching from new branch to master branch* 
-git push --delete origin old_branch :: Remote path will be deleted
+git checkout master :: *switching from new branch to master branch*  
+git push --delete origin old_branch :: Remote path will be deleted    
 git branch -d feature-readme-instructions :: local path will be deleted  
 git merge master :: *merge to master from the branch*  
 git merge --abort :: `abort last merge`  
 git diff `branch name` :: show the difference between current branch and the branch name added  
 git reset [reset id for go to the specific branch | HEAD~1 for 1 commit back | null for last commit undo]  
 git log :: for all the log  
+git remote show origin :: show the remote directory
+git pull command study
 
 
+If you need to remove a single file from the staging area, use
 
+git reset HEAD -- <file>
+
+If you need to remove a whole directory (folder) from the staging area, use
+
+git reset HEAD -- <directoryName>
 
 # Local development
 1. Open index.php in your browser  
