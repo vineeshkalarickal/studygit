@@ -28,6 +28,8 @@ ssh-keygen -t rsa -b 4096 -C "vineesh.kalarickal@gmail.com" :: generate ssh key 
 
 git push :: push to git hub web repository  
 
+$ git remote add origin https://github.com/vineeshkalarickal/newgit.git
+
 `*Upstream for future - set default origin path so that we can just use *`  
 git push -u origin master 
 (git push --set-upstream origin feature-readme-instructions)
