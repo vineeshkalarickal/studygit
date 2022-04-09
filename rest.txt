@@ -1,3 +1,5 @@
 git push
 git stash - to stash or store to some other place
 git pop stash 
+
+new line added by vineesh
